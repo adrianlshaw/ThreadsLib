@@ -1,0 +1,43 @@
+
+* Readme file provided but not detailed.
+
+* Make file is provided and the code compiled well with the make file without any error or warning.
+
+* Output of the code:
+*****************************************
+main: started
+
+main: waiting for p_thread1 to finish
+
+Thread 1 started with arg 42
+1
+Thread 2 started with arg 0
+2
+Thread 3 started with arg 0
+3323312323312332331232
+*******************************************
+
+* Thread.h includes almost every thing required. Struct thread_t is provided to hold thread id, state and context etc. However, threads.h file is not included into threads.c and Struct thread_t is redefined in threads.c. 
+
+* Changes made in the code to include threads.h. Code worked well with these changes and the provided header file. Changes are commented with the format /********/ and capitals.
+
+* Scheduling is merged inside the join function. It could be a better option to implement scheduling as a separate function (just a comment). 
+
+Provided: 
+	- List of threads
+	- thread_create
+	- thread_yield
+	- thread_exit
+	- thread_sleep
+	- thread_join
+	- pre-emptive scheduling
+	- timer signals etc.
+
+* Overall a good attempt to provide solution succeeded to achieve required output.
+
+* Code commented well.
+
+Subtractions: (header file)
+
+Total Marks: 19
+

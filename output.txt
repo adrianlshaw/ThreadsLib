@@ -1,0 +1,10 @@
+main: started
+
+main: waiting for p_thread1 to finish
+
+Thread 1 started with arg 42
+1
+Thread 2 started with arg 0
+2
+Thread 3 started with arg 0
+3323312323312332331232
